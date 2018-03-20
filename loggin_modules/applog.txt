@@ -1,0 +1,33 @@
+2018-03-20 09:17:22,284=>INFO==>program started
+2018-03-20 09:17:22,284=>INFO==>Taking an input from the user
+2018-03-20 09:17:25,539=>INFO==>User input sucessfully taken
+2018-03-20 09:17:25,540=>DEBUG==>a=12, b=6
+2018-03-20 09:17:25,540=>INFO==>a value conversion complted
+2018-03-20 09:17:25,540=>INFO==>b value conversion complted
+2018-03-20 09:17:25,540=>DEBUG==>After conversion: a=12.0, b=6.0
+2018-03-20 09:17:25,540=>INFO==>calculating the result
+2018-03-20 09:17:25,540=>DEBUG==>RES=2.0
+2018-03-20 09:17:25,540=>INFO==>operation completed successfully!!
+2018-03-20 09:17:49,520=>INFO==>program started
+2018-03-20 09:17:49,520=>INFO==>Taking an input from the user
+2018-03-20 09:17:51,499=>INFO==>User input sucessfully taken
+2018-03-20 09:17:51,499=>DEBUG==>a=12, b=0
+2018-03-20 09:17:51,499=>INFO==>a value conversion complted
+2018-03-20 09:17:51,499=>INFO==>b value conversion complted
+2018-03-20 09:17:51,500=>DEBUG==>After conversion: a=12.0, b=0.0
+2018-03-20 09:17:51,500=>INFO==>calculating the result
+2018-03-20 09:17:51,500=>ERROR==>float division by zero
+2018-03-20 09:17:51,500=>INFO==>operation completed successfully!!
+2018-03-20 09:18:48,679=>INFO==>program started
+2018-03-20 09:18:48,683=>INFO==>Taking an input from the user
+2018-03-20 09:18:51,083=>INFO==>User input sucessfully taken
+2018-03-20 09:18:51,083=>DEBUG==>a=qwe, b=qwer
+2018-03-20 09:18:51,083=>ERROR==>could not convert string to float: qwe
+2018-03-20 09:18:51,084=>INFO==>operation completed successfully!!
+2018-03-20 09:19:39,103=>INFO==>program started
+2018-03-20 09:19:39,103=>INFO==>Taking an input from the user
+2018-03-20 09:19:40,971=>INFO==>User input sucessfully taken
+2018-03-20 09:19:40,971=>DEBUG==>a=qwe, b=qwer
+2018-03-20 09:19:40,972=>INFO==>Converting a and b values to float
+2018-03-20 09:19:40,972=>ERROR==>could not convert string to float: qwe
+2018-03-20 09:19:40,972=>INFO==>operation completed successfully!!
