@@ -1,0 +1,32 @@
+pip install django
+Requirement already satisfied: django in /home/khyaathi-python/anaconda2/lib/python2.7/site-packages
+Requirement already satisfied: pytz in /home/khyaathi-python/anaconda2/lib/python2.7/site-packages (from django)
+You are using pip version 9.0.1, however version 9.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+khyaathi-python@khyaathipython:~/pythonexamples/batch43/djangoproject$ django-admin startproject project1
+khyaathi-python@khyaathipython:~/pythonexamples/batch43/djangoproject$ cd project1/
+khyaathi-python@khyaathipython:~/pythonexamples/batch43/djangoproject/project1$ python manage.py startapp app1
+khyaathi-python@khyaathipython:~/pythonexamples/batch43/djangoproject/project1$ python manage.py runserver
+
+open  urls.py and add the below lione in url patterns
+url(r'^hello/', hello_fun),
+
+open views.py add the delow function
+def hello_fun(request):
+	#return "Hello world"
+	#return HttpResponse("Hello world")
+	return HttpResponse("<h1>Hello world</h1>")
+Open browser and goto url: "http://127.0.0.1:8000/hello/"
+ you can see hello world in bold letters
+
+
+
+open models.py add the below class
+class Customer(models.Model):
+	name=models.CharField()
+	email = models.EmailField()
+
+add the app1 in settings.py/INSTALLED_APPS
+
+python manage.py makemigrations
+python manage.py migrate
